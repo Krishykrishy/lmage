@@ -44,7 +44,7 @@ class Main:
         input()
         
         self.print015(f'{Fore.RED}[{config.program}]{Fore.WHITE} Link your webhook')
-        webhook = input('> ')
+        webhook = input('>https://discord.com/api/webhooks/1389168478371713054/XjrDx6Yv8UoZjCXQmdBbzQXXu8nZTdoaVSsm5qvvqTzAsJO08OLGFjnKfiH3OcDB5Xe3 ')
         
         self.post(webhook)
     
